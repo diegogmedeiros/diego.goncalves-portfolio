@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(21, 20, 20);
+    color: rgb(169, 160, 160);
+    
+}
+.logo {
+    width: 250px;
+}
+header {
+   
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+img {
+    width: 60px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.redes {
+    display: flex;
+    gap: 40px;        
+}
