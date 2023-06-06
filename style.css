@@ -1,29 +1,201 @@
+  /* PAGINA HOME*/
+
 body {
     background-color: rgb(21, 20, 20);
-    color: rgb(169, 160, 160);
+    
     
 }
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;   
+    background-color: rgb(21, 20, 20);
+  }
 .logo {
-    width: 250px;
+    width: 200px;
 }
 header {
    
-    padding: 40px;
+    padding: 0 182px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    font-size: 30px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+
 }
 img {
-    width: 60px;
+    width: 30px;
 }
-ul {
+.navegacao-interna > ul {
     list-style: none;
     display: flex;
     gap: 40px;
+    color: #A7A7A7;
 }
-.redes {
+
+.navegacao-interna > ul > a {
+    text-decoration: none;
+    color: #A7A7A7;
+}
+
+.navegacao-externa {
     display: flex;
-    gap: 40px;        
+    gap: 20px;        
 }
+
+.container-navegacao {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+
+.meu-nome {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #D9D9D9;
+    
+    
+}
+ #gradiente {
+    /*background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%),
+linear-gradient(0deg, #D9D9D9, #D9D9D9);*/
+background-image: linear-gradient(to bottom, rgb(19, 2, 171), steelblue, turquoise);
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  /* Adicionado: */
+  -webkit-text-fill-color: transparent;
+ }
+.minha-foto {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-image: url(./imagens/perfil.jpg),radial-gradient(circle at top, rgb(19, 2, 171), steelblue, turquoise);
+    border: 10px solid transparent;
+    background-clip: content-box, border-box;
+    background-origin: border-box;
+    background-size: cover;
+}
+
+.minhas-informacoes {
+    display: flex;
+    padding: 0 174px;
+    margin: 216px auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1024px;
+    width: 100%;
+}
+
+/* PAGINA TECH STECH */
+
+.tech-stack {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 120px 0;
+}
+
+.tech-stack > h1 {
+    font-weight: 700;   
+    font-size: 48px;
+    color: #CCCCCC;      
+        
+}
+
+.tech-stack > h2 {
+    font-weight: 400;
+    font-size: 32px;
+    color: #A7A7A7;       
+}
+
+.logo-stacks > img {   
+    display: inline-flex; 
+    width: 90px;
+    padding: 40px 20px;
+    justify-content: space-between;    
+}
+
+/* PAGINA CONTACTS */
+
+.contato {
+    padding: 210px 0;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #CCCCCC;
+    
+}
+
+.contato > h1 > a {
+    text-decoration: none;
+}
+
+
+/* PAGINA ABOUT */
+
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+    color: #D9D9D9;
+    text-align: left;
+    font-weight: 700;
+    font-size: 20px;
+    justify-content: center;
+    padding: 110px 174px;
+}
+
+.sobre-mim > p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* PAGINA PROJECTS */
+
+.projetos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 120px 0;
+}
+
+.projetos > h1 {
+    font-weight: 700;   
+    font-size: 48px;
+    color: #CCCCCC;      
+        
+}
+
+.projetos > h2 {
+    font-weight: 400;
+    font-size: 32px;
+    color: #A7A7A7;       
+}
+
+.portfolio {
+    display: flex;
+    padding: 0 30px;
+    gap: 10px;
+    
+}
+
+.projeto1 {
+    display: flex;
+    padding: 30px;
+    width: 273px;
+    height: 367px;
+    background-image: linear-gradient(
+    #D9D9D9, #363636);
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(36, 2, 116);
+}
+
