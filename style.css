@@ -1,201 +1,193 @@
-  /* PAGINA HOME*/
+/* PAGINA HOME*/
 
 body {
-    background-color: rgb(21, 20, 20);
-    
-    
+  background-color: rgb(21, 20, 20);
 }
 #menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;   
-    background-color: rgb(21, 20, 20);
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(21, 20, 20);
+}
 .logo {
-    width: 200px;
+  width: 200px;
 }
 header {
-   
-    padding: 0 182px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    max-width: 1024px;
-    width: 100%;
-    margin: 0 auto;
-
+  padding: 0 182px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
 }
 img {
-    width: 30px;
+  width: 30px;
 }
 .navegacao-interna > ul {
-    list-style: none;
-    display: flex;
-    gap: 40px;
-    color: #A7A7A7;
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  color: #a7a7a7;
 }
 
 .navegacao-interna > ul > a {
-    text-decoration: none;
-    color: #A7A7A7;
+  text-decoration: none;
+  color: #a7a7a7;
 }
 
 .navegacao-externa {
-    display: flex;
-    gap: 20px;        
+  display: flex;
+  gap: 20px;
 }
 
 .container-navegacao {
-    display: flex;
-    gap: 40px;
-    align-items: center;
+  display: flex;
+  gap: 40px;
+  align-items: center;
 }
-
 
 .meu-nome {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-    color: #D9D9D9;
-    
-    
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #d9d9d9;
 }
- #gradiente {
-    /*background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%),
+#gradiente {
+  /*background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%),
 linear-gradient(0deg, #D9D9D9, #D9D9D9);*/
-background-image: linear-gradient(to bottom, rgb(19, 2, 171), steelblue, turquoise);
+  background-image: linear-gradient(
+    to bottom,
+    rgb(19, 2, 171),
+    steelblue,
+    turquoise
+  );
   background-clip: text;
   -webkit-background-clip: text;
 
   /* Adicionado: */
   -webkit-text-fill-color: transparent;
- }
+}
 .minha-foto {
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    background-image: url(./imagens/perfil.jpg),radial-gradient(circle at top, rgb(19, 2, 171), steelblue, turquoise);
-    border: 10px solid transparent;
-    background-clip: content-box, border-box;
-    background-origin: border-box;
-    background-size: cover;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-image: url(./imagens/perfil.jpg),
+    radial-gradient(circle at top, rgb(19, 2, 171), steelblue, turquoise);
+  border: 10px solid transparent;
+  background-clip: content-box, border-box;
+  background-origin: border-box;
+  background-size: cover;
 }
 
 .minhas-informacoes {
-    display: flex;
-    padding: 0 174px;
-    margin: 216px auto;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1024px;
-    width: 100%;
+  display: flex;
+  padding: 0 174px;
+  margin: 216px auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1024px;
+  width: 100%;
 }
 
 /* PAGINA TECH STECH */
 
 .tech-stack {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 120px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 120px 0;
 }
 
 .tech-stack > h1 {
-    font-weight: 700;   
-    font-size: 48px;
-    color: #CCCCCC;      
-        
+  font-weight: 700;
+  font-size: 48px;
+  color: #cccccc;
 }
 
 .tech-stack > h2 {
-    font-weight: 400;
-    font-size: 32px;
-    color: #A7A7A7;       
+  font-weight: 400;
+  font-size: 32px;
+  color: #a7a7a7;
 }
 
-.logo-stacks > img {   
-    display: inline-flex; 
-    width: 90px;
-    padding: 40px 20px;
-    justify-content: space-between;    
+.logo-stacks > img {
+  display: inline-flex;
+  width: 90px;
+  padding: 40px 20px;
+  justify-content: space-between;
 }
 
 /* PAGINA CONTACTS */
 
 .contato {
-    padding: 210px 0;
-    font-weight: 700;
-    font-size: 20px;
-    text-align: center;
-    color: #CCCCCC;
-    
+  padding: 210px 0;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #cccccc;
 }
 
 .contato > h1 > a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 
 /* PAGINA ABOUT */
 
 .sobre-mim {
-    display: flex;
-    flex-direction: column;
-    color: #D9D9D9;
-    text-align: left;
-    font-weight: 700;
-    font-size: 20px;
-    justify-content: center;
-    padding: 110px 174px;
+  display: flex;
+  flex-direction: column;
+  color: #d9d9d9;
+  text-align: left;
+  font-weight: 700;
+  font-size: 20px;
+  justify-content: center;
+  padding: 110px 174px;
 }
 
 .sobre-mim > p {
-    font-size: 20px;
-    line-height: 30px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 /* PAGINA PROJECTS */
 
 .projetos {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 120px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 120px 0;
 }
 
 .projetos > h1 {
-    font-weight: 700;   
-    font-size: 48px;
-    color: #CCCCCC;      
-        
+  font-weight: 700;
+  font-size: 48px;
+  color: #cccccc;
 }
 
 .projetos > h2 {
-    font-weight: 400;
-    font-size: 32px;
-    color: #A7A7A7;       
+  font-weight: 400;
+  font-size: 32px;
+  color: #a7a7a7;
 }
 
 .portfolio {
-    display: flex;
-    padding: 0 30px;
-    gap: 10px;
-    
+  display: flex;
+  padding: 0 30px;
+  gap: 10px;
 }
 
 .projeto1 {
-    display: flex;
-    padding: 30px;
-    width: 273px;
-    height: 367px;
-    background-image: linear-gradient(
-    #D9D9D9, #363636);
-    border-radius: 5%;
-    justify-content: center;
-    align-items: center;
-    color: rgb(36, 2, 116);
+  display: flex;
+  padding: 30px;
+  width: 273px;
+  height: 367px;
+  background-image: linear-gradient(#d9d9d9, #363636);
+  border-radius: 5%;
+  justify-content: center;
+  align-items: center;
+  color: rgb(36, 2, 116);
 }
-
